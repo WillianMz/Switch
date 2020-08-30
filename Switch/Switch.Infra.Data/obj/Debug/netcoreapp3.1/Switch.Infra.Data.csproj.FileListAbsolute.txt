@@ -1,0 +1,8 @@
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Infra.Data\bin\Debug\netcoreapp3.1\Switch.Infra.Data.deps.json
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Infra.Data\bin\Debug\netcoreapp3.1\Switch.Infra.Data.dll
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Infra.Data\obj\Debug\netcoreapp3.1\Switch.Infra.Data.csprojAssemblyReference.cache
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Infra.Data\obj\Debug\netcoreapp3.1\Switch.Infra.Data.AssemblyInfoInputs.cache
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Infra.Data\obj\Debug\netcoreapp3.1\Switch.Infra.Data.AssemblyInfo.cs
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Infra.Data\bin\Debug\netcoreapp3.1\Switch.Infra.Data.runtimeconfig.json
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Infra.Data\bin\Debug\netcoreapp3.1\Switch.Infra.Data.runtimeconfig.dev.json
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Infra.Data\obj\Debug\netcoreapp3.1\Switch.Infra.Data.genruntimeconfig.cache

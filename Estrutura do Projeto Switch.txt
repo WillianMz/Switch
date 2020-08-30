@@ -1,0 +1,17 @@
+Switch
+
+
+0 - DOMAIN
+	Contém as classes, metodos e regras de negócio do cliente
+1 - TESTS
+	Contém projetos para testes, neste caso somente para testar o projeto Domanin
+2 - INFRA
+	Contém toda a infraestrutura para acesso a dados e demais servicos
+3 - APPLICATION
+	Este projeto "conversa" com o Domain
+4 - API
+	Contém a API para que aplicações externas acessem dados/recursos do projeto
+5 - PRESENTATION
+	Nesta pasta ficaria projetos de Fontend/Aplicativos
+		Exemplos: Aplicação Fontend Angular/React
+				  Aplicativo Mobile
