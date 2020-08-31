@@ -1675,6 +1675,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "Switch.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Switch.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Switch.Domain.dll": {}
+        }
       }
     }
   },
@@ -5898,13 +5908,20 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "Switch.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Switch.Domain/Switch.Domain.csproj",
+      "msbuildProject": "../Switch.Domain/Switch.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.EntityFrameworkCore.Design >= 3.1.7",
       "Microsoft.EntityFrameworkCore.Proxies >= 3.1.7",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.7",
-      "Pomelo.EntityFrameworkCore.MySql >= 3.1.2"
+      "Pomelo.EntityFrameworkCore.MySql >= 3.1.2",
+      "Switch.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5936,7 +5953,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\WN\\Cursos\\EntityFrameworkCore\\Switch\\Switch.Domain\\Switch.Domain.csproj": {
+              "projectPath": "D:\\WN\\Cursos\\EntityFrameworkCore\\Switch\\Switch.Domain\\Switch.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5948,6 +5969,12 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.7, )"
+          },
           "Microsoft.EntityFrameworkCore.Proxies": {
             "target": "Package",
             "version": "[3.1.7, )"

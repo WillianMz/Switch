@@ -1,0 +1,9 @@
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain\bin\Debug\netcoreapp3.1\Switch.Domain.deps.json
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain\bin\Debug\netcoreapp3.1\Switch.Domain.dll
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain\bin\Debug\netcoreapp3.1\Switch.Domain.pdb
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain\obj\Debug\netcoreapp3.1\Switch.Domain.csprojAssemblyReference.cache
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain\obj\Debug\netcoreapp3.1\Switch.Domain.AssemblyInfoInputs.cache
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain\obj\Debug\netcoreapp3.1\Switch.Domain.AssemblyInfo.cs
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain\obj\Debug\netcoreapp3.1\Switch.Domain.csproj.CoreCompileInputs.cache
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain\obj\Debug\netcoreapp3.1\Switch.Domain.dll
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain\obj\Debug\netcoreapp3.1\Switch.Domain.pdb

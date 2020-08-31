@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IF66ZBqaj5ZUTOT+EJGPnuffuVJM1813+nyOPNNg7JbJL8UQw+jHMW9+R1OcIlxqudZZc/yOpsymm2VGxbFteQ==",
+  "dgSpecHash": "zC7Hr9+IqqsiDApxYo5cxPqhS6bolkBQhFdWApzoXO45v3vSkU6RvOL6NcFKG+bG1KevO8oIeUwUT+biwd7WHQ==",
   "success": true,
   "projectFilePath": "D:\\WN\\Cursos\\EntityFrameworkCore\\Switch\\Switch.Infra.Data\\Switch.Infra.Data.csproj",
   "expectedPackageFiles": [

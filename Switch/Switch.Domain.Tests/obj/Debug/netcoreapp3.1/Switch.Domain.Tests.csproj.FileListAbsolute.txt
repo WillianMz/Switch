@@ -1,0 +1,9 @@
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain.Tests\bin\Debug\netcoreapp3.1\Switch.Domain.Tests.deps.json
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain.Tests\bin\Debug\netcoreapp3.1\Switch.Domain.Tests.dll
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain.Tests\bin\Debug\netcoreapp3.1\Switch.Domain.Tests.pdb
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain.Tests\obj\Debug\netcoreapp3.1\Switch.Domain.Tests.csprojAssemblyReference.cache
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain.Tests\obj\Debug\netcoreapp3.1\Switch.Domain.Tests.AssemblyInfoInputs.cache
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain.Tests\obj\Debug\netcoreapp3.1\Switch.Domain.Tests.AssemblyInfo.cs
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain.Tests\obj\Debug\netcoreapp3.1\Switch.Domain.Tests.csproj.CoreCompileInputs.cache
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain.Tests\obj\Debug\netcoreapp3.1\Switch.Domain.Tests.dll
+D:\WN\Cursos\EntityFrameworkCore\Switch\Switch.Domain.Tests\obj\Debug\netcoreapp3.1\Switch.Domain.Tests.pdb
