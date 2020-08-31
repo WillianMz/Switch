@@ -8,6 +8,8 @@ namespace Switch.Infra.Data.Context
     {
         //conf. o mapeamento por convensão, as tabelas são criadas automaticamente pelo EF
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Postagem> Postagems { get; set; }
+        public DbSet<StatusRelacionamento> StatusRelacionamento { get; set; }
 
         public SwitchContext(DbContextOptions options) : base(options)
         {
