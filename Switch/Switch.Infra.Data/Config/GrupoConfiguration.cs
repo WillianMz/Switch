@@ -10,12 +10,18 @@ namespace Switch.Infra.Data.Config
         public void Configure(EntityTypeBuilder<Grupo> builder)
         {
             builder.HasKey(g => g.Id);
+
             builder.Property(g => g.Nome)
                             .IsRequired()
                             .HasMaxLength(100);
+
             builder.Property(g => g.Descricao)
                             .IsRequired()
                             .HasMaxLength(200);
+
+            builder.Property(g => g.UrlFoto)
+                            .IsRequired()
+                            .HasMaxLength(1000);
             
         }
     }

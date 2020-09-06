@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/d9BGY1ujGTlXu9mXH5U69O16pgKJ4uisej9I62vaPIZdhIKhLzLM3JEu8KSMO5OfrDvu+r0s3Qyb0TmkkhVsg==",
+  "dgSpecHash": "4oXQ4AtdpHaAeZtbqwMa5c27nJ5HYs/VsPHeFetr8ihzamvaB3u97bnm+16utmxHiw+WebTFnVNah1NfrrA27Q==",
   "success": true,
-  "projectFilePath": "D:\\WN\\Cursos\\EntityFrameworkCore\\Switch\\Switch.Application\\Switch.Application.csproj",
+  "projectFilePath": "D:\\Cursos\\Switch\\Switch\\Switch.Application\\Switch.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

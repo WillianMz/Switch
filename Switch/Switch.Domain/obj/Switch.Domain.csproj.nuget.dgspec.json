@@ -1,29 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WN\\Cursos\\EntityFrameworkCore\\Switch\\Switch.Domain\\Switch.Domain.csproj": {}
+    "D:\\Cursos\\Switch\\Switch\\Switch.Domain\\Switch.Domain.csproj": {}
   },
   "projects": {
-    "D:\\WN\\Cursos\\EntityFrameworkCore\\Switch\\Switch.Domain\\Switch.Domain.csproj": {
+    "D:\\Cursos\\Switch\\Switch\\Switch.Domain\\Switch.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WN\\Cursos\\EntityFrameworkCore\\Switch\\Switch.Domain\\Switch.Domain.csproj",
+        "projectUniqueName": "D:\\Cursos\\Switch\\Switch\\Switch.Domain\\Switch.Domain.csproj",
         "projectName": "Switch.Domain",
-        "projectPath": "D:\\WN\\Cursos\\EntityFrameworkCore\\Switch\\Switch.Domain\\Switch.Domain.csproj",
-        "packagesPath": "C:\\Users\\Willian\\.nuget\\packages\\",
-        "outputPath": "D:\\WN\\Cursos\\EntityFrameworkCore\\Switch\\Switch.Domain\\obj\\",
+        "projectPath": "D:\\Cursos\\Switch\\Switch\\Switch.Domain\\Switch.Domain.csproj",
+        "packagesPath": "C:\\Users\\WN\\.nuget\\packages\\",
+        "outputPath": "D:\\Cursos\\Switch\\Switch\\Switch.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Willian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
