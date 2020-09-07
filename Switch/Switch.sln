@@ -15,19 +15,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - API", "4 - API", "{37FE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Presentation", "5 - Presentation", "{E2D93CA2-CCBB-4F5A-B80B-5C1E5A5BCEEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch.Domain", "Switch.Domain\Switch.Domain.csproj", "{C9710702-7F37-48B7-BA41-492486A42509}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switch.Domain", "Switch.Domain\Switch.Domain.csproj", "{C9710702-7F37-48B7-BA41-492486A42509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch.Domain.Tests", "Switch.Domain.Tests\Switch.Domain.Tests.csproj", "{607DEE76-0686-4A7F-B2A7-36E71A8CD949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switch.Domain.Tests", "Switch.Domain.Tests\Switch.Domain.Tests.csproj", "{607DEE76-0686-4A7F-B2A7-36E71A8CD949}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 CrossCutting", "2.1 CrossCutting", "{D4AF7B2D-5FC0-4081-945F-1B39EC556457}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 Data", "2.2 Data", "{98096FD4-A22A-4FFB-949A-2B66F21D8F97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch.Infra.Data", "Switch.Infra.Data\Switch.Infra.Data.csproj", "{A7A59C62-1989-4944-96F3-A57CB62125D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switch.Infra.Data", "Switch.Infra.Data\Switch.Infra.Data.csproj", "{A7A59C62-1989-4944-96F3-A57CB62125D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch.Application", "Switch.Application\Switch.Application.csproj", "{2001FE54-8938-47D3-A5C7-30683C7EF7B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switch.Application", "Switch.Application\Switch.Application.csproj", "{2001FE54-8938-47D3-A5C7-30683C7EF7B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch.API", "Switch.API\Switch.API.csproj", "{846589DD-5968-4459-83A2-1DCFD87E8162}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switch.API", "Switch.API\Switch.API.csproj", "{846589DD-5968-4459-83A2-1DCFD87E8162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchAPP", "SwitchAPP\SwitchAPP.csproj", "{F0AE9EF7-BAD3-4C9B-8904-611F38338738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch.Infra.CrossCutting.Logging", "Switch.Infra.CrossCutting.Logging\Switch.Infra.CrossCutting.Logging.csproj", "{ADF68F3E-05D2-4703-8A42-E8C2DBF79CF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,14 @@ Global
 		{846589DD-5968-4459-83A2-1DCFD87E8162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{846589DD-5968-4459-83A2-1DCFD87E8162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{846589DD-5968-4459-83A2-1DCFD87E8162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0AE9EF7-BAD3-4C9B-8904-611F38338738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0AE9EF7-BAD3-4C9B-8904-611F38338738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0AE9EF7-BAD3-4C9B-8904-611F38338738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0AE9EF7-BAD3-4C9B-8904-611F38338738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF68F3E-05D2-4703-8A42-E8C2DBF79CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF68F3E-05D2-4703-8A42-E8C2DBF79CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF68F3E-05D2-4703-8A42-E8C2DBF79CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF68F3E-05D2-4703-8A42-E8C2DBF79CF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +79,8 @@ Global
 		{A7A59C62-1989-4944-96F3-A57CB62125D2} = {98096FD4-A22A-4FFB-949A-2B66F21D8F97}
 		{2001FE54-8938-47D3-A5C7-30683C7EF7B1} = {423F33E9-4EC9-4E09-95AC-6DF5A27428BD}
 		{846589DD-5968-4459-83A2-1DCFD87E8162} = {37FE45E9-B37D-496D-8BBE-A348FDD3AE0E}
+		{F0AE9EF7-BAD3-4C9B-8904-611F38338738} = {E2D93CA2-CCBB-4F5A-B80B-5C1E5A5BCEEF}
+		{ADF68F3E-05D2-4703-8A42-E8C2DBF79CF9} = {D4AF7B2D-5FC0-4081-945F-1B39EC556457}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3263C6FA-8C0A-4BF9-9ACD-C83543749AC2}

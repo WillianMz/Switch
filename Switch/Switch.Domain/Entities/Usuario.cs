@@ -7,13 +7,13 @@ namespace Switch.Domain.Entities
     public class Usuario
     {
         public int Id { get; private set; }
-        public string Nome { get; private set; }
-        public string Sobrenome { get; private set; }
-        public string Email { get; private set; }
-        public string Senha { get; private set; }
-        public DateTime DataNascimento { get; private set; }
+        public string Nome { get; set; }
+        public string Sobrenome { get; set; }
+        public string Email { get; set; }
+        public string Senha { get; set; }
+        public DateTime DataNascimento { get; set; }
         public SexoEnum Sexo { get; set; }
-        public string UrlFoto { get; private set; }
+        public string UrlFoto { get; set; }
 
         //relacionamento 1 para 1
         public virtual Identificacao Identificacao { get; set; }

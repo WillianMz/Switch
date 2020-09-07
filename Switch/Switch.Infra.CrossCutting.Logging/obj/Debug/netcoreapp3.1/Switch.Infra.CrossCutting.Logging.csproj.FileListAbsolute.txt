@@ -1,0 +1,9 @@
+D:\Cursos\Switch\Switch\Switch.Infra.CrossCutting.Logging\bin\Debug\netcoreapp3.1\Switch.Infra.CrossCutting.Logging.deps.json
+D:\Cursos\Switch\Switch\Switch.Infra.CrossCutting.Logging\bin\Debug\netcoreapp3.1\Switch.Infra.CrossCutting.Logging.dll
+D:\Cursos\Switch\Switch\Switch.Infra.CrossCutting.Logging\obj\Debug\netcoreapp3.1\Switch.Infra.CrossCutting.Logging.AssemblyInfoInputs.cache
+D:\Cursos\Switch\Switch\Switch.Infra.CrossCutting.Logging\obj\Debug\netcoreapp3.1\Switch.Infra.CrossCutting.Logging.AssemblyInfo.cs
+D:\Cursos\Switch\Switch\Switch.Infra.CrossCutting.Logging\bin\Debug\netcoreapp3.1\Switch.Infra.CrossCutting.Logging.pdb
+D:\Cursos\Switch\Switch\Switch.Infra.CrossCutting.Logging\obj\Debug\netcoreapp3.1\Switch.Infra.CrossCutting.Logging.csprojAssemblyReference.cache
+D:\Cursos\Switch\Switch\Switch.Infra.CrossCutting.Logging\obj\Debug\netcoreapp3.1\Switch.Infra.CrossCutting.Logging.csproj.CoreCompileInputs.cache
+D:\Cursos\Switch\Switch\Switch.Infra.CrossCutting.Logging\obj\Debug\netcoreapp3.1\Switch.Infra.CrossCutting.Logging.dll
+D:\Cursos\Switch\Switch\Switch.Infra.CrossCutting.Logging\obj\Debug\netcoreapp3.1\Switch.Infra.CrossCutting.Logging.pdb
