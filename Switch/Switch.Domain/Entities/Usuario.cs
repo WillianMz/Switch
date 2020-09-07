@@ -17,7 +17,7 @@ namespace Switch.Domain.Entities
 
         //relacionamento 1 para 1
         public virtual Identificacao Identificacao { get; set; }
-        public virtual StatusRelacionamento StatusRelecionamento { get; set; }
+        public virtual StatusRelacionamento StatusRelacionamento { get; set; }
         public virtual ProcurandoPor ProcurandoPor { get; set; }
 
         //para relacionamentos muitos para muitos

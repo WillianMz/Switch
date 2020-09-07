@@ -4,8 +4,8 @@ namespace Switch.Domain.Entities
 {
     public class StatusRelacionamento
     {
-        public int Id { get; private set; }
-        public string Descricao { get; private set; }
+        public int Id { get; set; }
+        public string Descricao { get; set; }
 
         public bool NaoEspecificado { get { return Id == (int)StatusRelacionamentoEnum.NaoEspecificado; } }
         public bool Solteiro { get { return Id == (int)StatusRelacionamentoEnum.Solteiro; } }

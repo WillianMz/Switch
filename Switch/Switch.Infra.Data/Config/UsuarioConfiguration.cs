@@ -45,6 +45,11 @@ namespace Switch.Infra.Data.Config
             //relacionamento 1 para N
             //builder.HasMany(u => u.Postagens).WithOne(p => p.Usuario);
             builder.HasMany(u => u.Comentarios).WithOne(c => c.Usuario);
+            builder.HasMany(u => u.Amigos).WithOne(a => a.Usuario);
+            builder.HasMany(u => u.Postagens).WithOne(p => p.Usuario);
+            builder.HasMany(u => u.UsuarioGrupos).WithOne(p => p.Usuario);
+            builder.HasOne(u => u.StatusRelacionamento);
+            builder.HasOne(u => u.ProcurandoPor);
         }
     }
 }
