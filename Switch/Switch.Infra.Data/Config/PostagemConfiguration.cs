@@ -11,7 +11,8 @@ namespace Switch.Infra.Data.Config
         {
             builder.HasKey(p => p.Id);
 
-            builder.Property(p => p.DataPublicacao).IsRequired();
+            builder.Property(p => p.DataPublicacao)
+                            .IsRequired();
 
             builder.Property(p => p.Texto)
                             .IsRequired()
