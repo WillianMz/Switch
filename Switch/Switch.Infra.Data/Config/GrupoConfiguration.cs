@@ -22,7 +22,9 @@ namespace Switch.Infra.Data.Config
             builder.Property(g => g.UrlFoto)
                             .IsRequired()
                             .HasMaxLength(1000);
-            
+
+            //relacionamento muito para muitos
+            builder.HasMany(g => g.Postagens).WithOne(p => p.Grupo);
         }
     }
 }
