@@ -7,6 +7,7 @@ using System;
 using Microsoft.Extensions.Logging;
 using Switch.Infra.CrossCutting.Logging;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SwitchAPP
 {
@@ -23,20 +24,7 @@ namespace SwitchAPP
             Usuario usuario5;
             Usuario usuario6;
 
-            Usuario CriarUsuario(string nome)
-            {
-                return new Usuario()
-                {
-                    Nome = nome,
-                    Sobrenome = "Sobrenome",
-                    Senha = "123456",
-                    Email = "teste@teste.com",
-                    DataNascimento = DateTime.Now,
-                    Sexo = Switch.Domain.Enums.SexoEnum.Masculino,
-                    UrlFoto = @"c:\temp"
-                };
-            }
-
+           
             usuario1 = CriarUsuario("usuario 1");
             usuario2 = CriarUsuario("usuario 2");
             usuario3 = CriarUsuario("usuario 3");
@@ -57,6 +45,7 @@ namespace SwitchAPP
 
             try
             {
+                //using descarta da memoria, desde que a classe em uso implemente a interface IDispose
                 using (var dbcontext = new SwitchContext(optionsBuilder.Options))
                 {
                     dbcontext.GetService<ILoggerFactory>().AddProvider(new Logger());
@@ -73,10 +62,40 @@ namespace SwitchAPP
                     //dbcontext.Usuarios.Add(usuario6);
 
                     //de outra forma, usando uma lista de objetos
-                    dbcontext.Usuarios.AddRange(listaUsuarios);
+                    //dbcontext.Usuarios.AddRange(listaUsuarios);
+
+                    //salva todas as alterações na base de dados
+                    //dbcontext.SaveChanges();
+
+                    //consultas a base de dados
+                    //exemplos
+                    ////carrega tudo o que tem na base
+                    //var resultado = dbcontext.Usuarios.ToList();
+
+                    ////filtro por nome
+                    //var resultado2 = dbcontext.Usuarios.Where(u => u.Nome == "usuario1");
+
+                    ////evitar usar assim, isso traz impacto na performance
+                    //foreach(var us in resultado2)//abre conexao
+                    //{
+
+                    //    //aqui poderia ter alguns metodos simples
+
+                    //}//fecha conexao
 
 
+                    ////filtro por nome
+                    //var resultado3 = dbcontext.Usuarios.Where(u => u.Nome == "usuario1").ToList();
+
+                    ////para abrir e fechar conexão, chamar o método ToList()
+                    ////para que armaze o resultado da consulta na memória
+                    ///
+
+                    var usuarioNovo = CriarUsuario("usuarioNovo1");
+                    dbcontext.Usuarios.Add(usuarioNovo);
                     dbcontext.SaveChanges();
+
+                    var usuarioRetorno = dbcontext.Usuarios.Where(u => u.Nome == "usuarioNovo1").ToList();
                 }
             }
             catch(Exception ex)
@@ -88,5 +107,21 @@ namespace SwitchAPP
             Console.WriteLine("Ok!");
             Console.ReadKey();
         }
+
+
+        public static Usuario CriarUsuario(string nome)
+        {
+            return new Usuario()
+            {
+                Nome = nome,
+                Sobrenome = "Sobrenome",
+                Senha = "123456",
+                Email = "teste@teste.com",
+                DataNascimento = DateTime.Now,
+                Sexo = Switch.Domain.Enums.SexoEnum.Masculino,
+                UrlFoto = @"c:\temp"
+            };
+        }
+
     }
 }
