@@ -32,6 +32,7 @@ namespace Switch.Domain.Entities
         public Usuario()
         {
             //instancia para evitar erros
+            //exemplo de erro: 'Object reference not set to an instance of an object.'
             Postagens = new List<Postagem>();
             UsuarioGrupos = new List<UsuarioGrupo>();
             LocaisTrabalho = new List<LocalTrabalho>();

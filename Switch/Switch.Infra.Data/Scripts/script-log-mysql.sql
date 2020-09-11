@@ -35,3 +35,32 @@ order by (event_time) desc;
 SELECT CONVERT(argument USING utf8) FROM mysql.general_log;
 
 /*SET global general_log = 0;*/
+
+
+//STORE PROCEDURE
+
+DELIMITER //
+CREATE PROCEDURE spObterTodosUsuarios()
+BEGIN
+	SELECT nome, sobrenome FROM usuarios;
+END //
+
+
+DELIMITER //
+CREATE PROCEDURE spObterUsuario(usuarioID int) 
+BEGIN 
+	SELECT nome, sobrenome FROM usuarios
+    WHERE id = usuarioID;
+END //
+
+
+DELIMITER //
+CREATE PROCEDURE spObterUsuariosPorInstituicoes()
+BEGIN
+	SELECT us.nome AS NomeUsuario, 
+    	   us.sobrenome AS SobrenomeUsuario, 
+           ie.Nome as NomeInstituicao
+    	FROM usuarios us
+    	INNER JOIN instituicoesensino ie 
+    	ON us.Id = ie.UsuarioId;
+END //
